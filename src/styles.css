@@ -176,6 +176,11 @@ body {
     text-align: center;
 }
   
+@media screen and (max-width: 200px) {
+  .searchInput{
+    width: 80%;
+  }
+}
 @media screen and (max-width: 700px) {
     .recipe-details-content img{
         width: 250px;
