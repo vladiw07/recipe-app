@@ -180,7 +180,7 @@ body {
   }
   .recipesUl li{
     position: relative;
-    left: 64.5px;
+    left: 65px;
   }
 }
 @media screen and (max-width: 700px) {
