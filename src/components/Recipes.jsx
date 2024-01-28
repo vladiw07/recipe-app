@@ -25,7 +25,7 @@ function Recipes() {
             {data.meals.map((meal) => (
               <li key={meal.idMeal}>
                 <img src={meal.strMealThumb} alt={meal.strMeal} />
-                <p>{meal.strMeal}</p>
+                <p>{meal.strMeal}d</p>
                 <div className="button-div">    
                 <Link className='viewRecipeBtn' to={`/recipe/${meal.idMeal}`}>View Recipe</Link>
                 </div>
