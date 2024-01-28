@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Note the use of "Routes" instead of "Route"
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Recipes from './components/Recipes';
 import RecipeDetails from './components/RecipeDetails';
 import './styles.css'
