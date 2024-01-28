@@ -13,9 +13,7 @@ const TopSection = ({ searchTerm, onSearchChange, onSearchSubmit }) => {
   return (
     <div className='HeaderContainer'>
       <h1 className='element1' onClick={handleReloadPage}>Food Recipes</h1>
-      <p>Menu</p>
-      <p>Menu</p>
-      <p>Menu</p>
+      
       <SearchBar searchTerm={searchTerm} onSearchChange={handleChange} onSearchSubmit={onSearchSubmit} />
     </div>
   );
