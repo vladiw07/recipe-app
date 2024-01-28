@@ -17,7 +17,6 @@ body {
     color: #fff;
     font-family: sans-serif;
     font-weight: 200;
-    width: 100%;
 }
   
 .element1 {
@@ -175,10 +174,13 @@ body {
 .recipe-category,.recipe-area{
     text-align: center;
 }
-  
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 380px) {
   .searchInput{
-    width: 80%;
+      width: 300px;
+  }
+  .recipesUl li{
+    position: relative;
+    left: 65px;
   }
 }
 @media screen and (max-width: 700px) {
